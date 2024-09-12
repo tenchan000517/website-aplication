@@ -36,6 +36,7 @@ next-env.d.ts
 
 # Google Cloud credentials
 marine-bebop-434912-t7-24bdf713dc60.json
+clientwork-434917-49a49300b22f.json
 
 .env
 .vercel

@@ -1,0 +1,115 @@
+/* メインのレイアウト */
+.l-mainColumn {
+  width: 100%;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* セクション共通のスタイル */
+.f-specialContents, .f-salary, .f-shopIntro, .f-castFeature, .f-system, .f-access, .f-campaign {
+  margin-bottom: 40px;
+}
+
+.specialContents-head, .shopIntro-head, .castFeature-head, .system-head, .access-head, .campaign-head, .salary-head {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.specialContents-body, .shopIntro-body, .castFeature-body, .system-body, .access-body, .campaign-body, .salary-body {
+  text-align: center;
+}
+
+.swiper-wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.swiper-slide {
+  width: 30%;
+}
+
+.p-imgWrap {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.shopIntro-txt, .salary-txt, .campaign-item {
+  margin-bottom: 10px;
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+/* キャンペーン情報 */
+.f-campaign {
+  background-color: #f9f9f9;
+  padding: 20px;
+  border: 1px solid #ddd;
+}
+
+.f-campaign .campaign-list {
+  list-style: none;
+  padding: 0;
+}
+
+.f-campaign .campaign-item {
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+/* システムセクション */
+.system-list {
+  list-style: none;
+  padding: 0;
+}
+
+.system-item {
+  margin-bottom: 10px;
+  font-size: 16px;
+}
+
+.salary-inner {
+  border: 1px solid #ccc;
+  padding: 20px;
+  background-color: #f9f9f9;
+}
+
+.salary-price {
+  margin-bottom: 20px;
+}
+
+.price-head {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.price-data {
+  font-size: 24px;
+  font-weight: bold;
+  color: #e74c3c;
+}
+
+.salary-note {
+  font-size: 12px;
+  color: #999;
+}
+
+.salary-dl {
+  margin-top: 20px;
+}
+
+.salary-dt, .salary-dd {
+  font-size: 14px;
+}
+
+.salary-em {
+  font-weight: bold;
+  font-size: 16px;
+}
+
+/* アクセス情報 */
+.f-access {
+  background-color: #f4f4f4;
+  padding: 20px;
+  border: 1px solid #ddd;
+  text-align: left;
+}

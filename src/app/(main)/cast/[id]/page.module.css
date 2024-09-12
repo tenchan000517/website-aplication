@@ -1,0 +1,184 @@
+/* C:\website-next\src\app\cast\[id]\page.module.css */
+
+.pagetitle {
+  font-size: 24px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.pagetitle span {
+  display: block;
+  font-size: 14px;
+}
+
+.topbox {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  gap: 40px;
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0 20px;
+}
+
+.photodata {
+  flex: 0 0 auto;
+  width: 480px;
+  max-width: 480px;
+  margin-bottom: 20px;
+}
+
+.mainImage {
+  position: relative;
+  margin-bottom: 10px;
+}
+
+.mainImage img {
+  width: 100%;
+  height: auto;
+}
+
+.imageList ul {
+  display: flex;
+  justify-content: start;
+  gap: 10px;
+  list-style: none;
+  padding: 0;
+}
+
+.ph2_vthumb img {
+  width: 80px;
+  height: auto;
+  cursor: pointer;
+}
+
+.profdata {
+  flex: 1;
+  min-width: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.profdata h3 {
+  font-size: 28px;
+  margin-bottom: 15px;
+}
+
+.body {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.type ul {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.type ul li {
+  background-color: #f0f0f0;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+.profdata dl {
+  margin-top: 20px;
+}
+
+.profdata dt {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.profdata dd {
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+.bottombox {
+  margin-top: 30px;
+}
+
+.subtitle {
+  font-size: 20px;
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+.subtitle span {
+  display: block;
+  font-size: 14px;
+}
+
+/* スケジュールのスタイル */
+.schedule_btnArea {
+  margin-bottom: 15px;
+}
+
+.schedule_btnList {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  padding: 0;
+}
+
+.schedule_btnItem a {
+  padding: 5px 10px;
+  background-color: #f0f0f0;
+  border-radius: 5px;
+  text-decoration: none;
+  color: #333;
+}
+
+.sch_inner {
+  border: 1px solid #ddd;
+  padding: 15px;
+}
+
+.sch_inner ul {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  padding: 0;
+}
+
+.sch_inner li {
+  text-align: center;
+  flex: 1;
+}
+
+.info_header {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.time {
+  font-size: 14px;
+}
+
+@media (max-width: 1000px) {
+  .topbox {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .photodata {
+    width: 100%;
+    max-width: 480px;
+    margin: 0 auto 20px;
+  }
+
+  .profdata {
+    width: 100%;
+  }
+
+  .sch_inner ul {
+    flex-direction: column;
+  }
+
+  .sch_inner li {
+    margin-bottom: 10px;
+  }
+}

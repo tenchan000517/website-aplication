@@ -33,3 +33,28 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# Google Cloud credentials
+marine-bebop-434912-t7-24bdf713dc60.json
+
+.env
+.vercel
+
+version/
+
+/アクセスリスト.md
+/キャスト一覧リスト.md
+/コンセプトリスト.md
+/システムリスト.md
+/システム設計書.md
+/シフト用LINEセットアップ.md
+/スケジュールリスト.md
+/ディレクトリ構造図.md
+/トップページリスト.md
+/レイアウトリスト.md
+/ロードマップ.md
+/求人リスト.md
+/要件定義書.md
+/詳細仕様書 copy.md
+/詳細仕様書.md
+/読み込みリスト.md

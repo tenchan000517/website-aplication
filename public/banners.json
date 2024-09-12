@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "imageUrl": "https://sweetqueen-tokyo.com/upload/banner/11.jpg?1713766333",
+    "alt": "ランキング",
+    "link": "https://www.esthe-ranking.jp/ikebukuro/shop-detail/57f73cff-0559-4cea-aae7-f8f676dda14f/"
+  },
+  {
+    "id": 2,
+    "imageUrl": "https://sweetqueen-tokyo.com/upload/banner/13.jpg?1715015995",
+    "alt": "エステラブ",
+    "link": "https://ranking-deli.jp/fuzoku/style8/8/shop/37466/"
+  },
+  {
+    "id": 3,
+    "imageUrl": "https://sweetqueen-tokyo.com/upload/banner/12.jpg?1715016010",
+    "alt": "事前予約割り",
+    "link": "https://eslove.jp/shop/28269"
+  },
+  {
+    "id": 4,
+    "imageUrl": "https://sweetqueen-tokyo.com/upload/banner/14.jpg?1713766872",
+    "alt": "バニラ求人",
+    "link": "https://kanto.qzin.jp/sweetqueen/?v=official"
+  }
+]

@@ -1,0 +1,108 @@
+.accessContainer {
+    padding: 40px;
+    background-color: #fdfdfd;
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    color: #333;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.wrap {
+    margin-top: 40px;
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 30px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.pagetitle {
+    font-size: 36px;
+    font-weight: bold;
+    color: #333;
+    text-align: center;
+    letter-spacing: 2px;
+    margin-bottom: 40px;
+    text-transform: uppercase;
+}
+
+.breadcrumb {
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 16px;
+    color: #888;
+}
+
+.breadcrumb ol {
+    display: inline-block;
+    padding: 0;
+    list-style: none;
+}
+
+.breadcrumb ol li {
+    display: inline;
+    margin-right: 5px;
+}
+
+.breadcrumb ol li a {
+    color: #888;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.breadcrumb ol li a:hover {
+    color: #333;
+}
+
+.accessList {
+    list-style: none;
+    padding: 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 40px;
+}
+
+.accessList li {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.accessList li:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+}
+
+.accessList .data h3 {
+    font-size: 24px;
+    font-weight: 600;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.accessList .data span {
+    display: block;
+    font-size: 16px;
+    color: #555;
+    margin-bottom: 10px;
+}
+
+.accessList .data img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    object-fit: cover;
+    aspect-ratio: 16/9;
+}
+
+.map iframe {
+    width: 100%;
+    height: 300px;
+    border-radius: 8px;
+    border: none;
+    object-fit: cover;
+}

@@ -1,0 +1,124 @@
+.scheduleContainer {
+    padding: 40px;
+    background-color: #fdfdfd;
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    color: #333;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.headerOpen {
+    color: rgb(0, 0, 0);
+}
+
+.pageTitle {
+    font-size: 36px;
+    font-weight: bold;
+    color: #333;
+    text-align: center;
+    letter-spacing: 2px;
+    margin-bottom: 40px;
+    text-transform: uppercase;
+}
+
+.breadcrumb {
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 16px;
+    color: #888;
+}
+
+.breadcrumb ol {
+    display: inline-block;
+    padding: 0;
+    list-style: none;
+}
+
+.breadcrumb ol li {
+    display: inline;
+    margin-right: 5px;
+}
+
+.breadcrumb ol li a {
+    color: #888;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.breadcrumb ol li a:hover {
+    color: #333;
+}
+
+.dayNavi {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.dayNavi li {
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.dayNavi li:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+}
+
+.current {
+    font-weight: bold;
+    color: #FF007F;
+}
+
+.month {
+    font-size: 18px;
+}
+
+.dotw {
+    font-size: 14px;
+}
+
+.castList {
+    list-style: none;
+    padding: 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 40px;
+    margin-top: 40px;
+}
+
+.listItem {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.listItem:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+}
+
+.ph img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+.timeData {
+    margin-top: 10px;
+}
+
+.time {
+    color: #333;
+    font-weight: bold;
+}
+
+.weekNext {
+    margin-top: 40px;
+    text-align: center;
+}

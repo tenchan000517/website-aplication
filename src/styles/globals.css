@@ -1,0 +1,378 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 0, 0, 0;
+    --background-end-rgb: 0, 0, 0;
+  }
+}
+
+body {
+  color: rgb(var(--foreground-rgb));
+  background: linear-gradient(
+      to bottom,
+      transparent,
+      rgb(var(--background-end-rgb))
+    )
+    rgb(var(--background-start-rgb));
+}
+
+/* ヘッダーのスタイル */
+header#header {
+  background-color: rgb(var(--background-start-rgb));
+  color: rgb(var(--foreground-rgb));
+  padding: 1rem;
+  border-bottom: 1px solid rgb(var(--foreground-rgb));
+}
+
+/* 内部コンテンツのスタイル */
+header#header .inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header#header .logo img {
+  max-width: 100%;
+  height: auto;
+}
+
+header#header .header_info {
+  display: flex;
+  flex-direction: column;
+  text-align: right;
+}
+
+header#header .header_info .shop {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+header#header .header_info .time,
+header#header .header_info .tel {
+  font-size: 0.9rem;
+}
+
+/* ナビゲーションメニューのスタイル */
+nav#gnav {
+  background-color: rgb(var(--background-end-rgb));
+  padding: 1rem;
+}
+
+nav#gnav ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+}
+
+nav#gnav li {
+  margin: 0;
+}
+
+nav#gnav .gbtn {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: rgb(var(--foreground-rgb));
+  padding: 0.5rem;
+}
+
+nav#gnav .gbtn div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+nav#gnav .gbtn .en,
+nav#gnav .gbtn .jp {
+  display: block;
+}
+
+nav#gnav .gbtn .bg {
+  display: none;
+}
+
+nav#gnav .current_top .gbtn,
+nav#gnav .current_concept .gbtn,
+nav#gnav .current_schedule .gbtn,
+nav#gnav .current_system .gbtn,
+nav#gnav .current_cast .gbtn,
+nav#gnav .current_recruit .gbtn,
+nav#gnav .current_access .gbtn {
+  font-weight: bold;
+  border-bottom: 2px solid rgb(var(--foreground-rgb));
+}
+
+nav#gnav .current_top .gbtn .bg,
+nav#gnav .current_concept .gbtn .bg,
+nav#gnav .current_schedule .gbtn .bg,
+nav#gnav .current_system .gbtn .bg,
+nav#gnav .current_cast .gbtn .bg,
+nav#gnav .current_recruit .gbtn .bg,
+nav#gnav .current_access .gbtn .bg {
+  background-color: rgb(var(--foreground-rgb));
+}
+
+/* フッターのスタイル */
+#footer {
+  background-color: #333; /* フッターの背景色 */
+  color: #fff; /* フッター内の文字色 */
+  padding: 2rem 0; /* フッターの上下パディング */
+  text-align: center; /* 中央揃え */
+}
+
+#footer .inner {
+  max-width: 1200px; /* 最大幅を指定 */
+  margin: 0 auto; /* 中央揃え */
+  padding: 0 1rem; /* 内側のパディング */
+}
+
+#footer nav {
+  margin-bottom: 1rem; /* ナビゲーションとコピーライトの間隔 */
+}
+
+#footer nav ul {
+  list-style: none; /* リストのマーカーを削除 */
+  padding: 0; /* 内側のパディングを削除 */
+  margin: 0; /* 外側のマージンを削除 */
+  display: flex;
+  justify-content: center; /* 中央揃え */
+}
+
+#footer nav ul li {
+  margin: 0 1rem; /* リストアイテムの左右の間隔 */
+}
+
+#footer nav ul li a {
+  color: #fff; /* リンクの文字色 */
+  text-decoration: none; /* リンクの下線を削除 */
+}
+
+#footer nav ul li a:hover {
+  text-decoration: underline; /* ホバー時の下線追加 */
+}
+
+#footer .copyright {
+  font-size: 0.875rem; /* コピーライトのフォントサイズ */
+  margin: 0; /* マージンを削除 */
+}
+
+#footer .copyright2 {
+  font-size: 0.75rem; /* コピーライト2のフォントサイズ */
+  margin-top: 0.5rem; /* 上部マージン */
+}
+
+#footer .copyright a {
+  color: #fff; /* コピーライト内リンクの文字色 */
+  text-decoration: none; /* リンクの下線を削除 */
+}
+
+#footer .copyright a:hover {
+  text-decoration: underline; /* ホバー時の下線追加 */
+}
+
+
+#wrap {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fff;
+}
+
+.upside {
+  margin-top: 50px;
+}
+
+#header-open {
+  text-align: center;
+  font-weight: bold;
+  color: #000;
+}
+
+/* パンくずリスト */
+.top_crumb {
+  margin-bottom: 20px;
+}
+
+.breadcrumb {
+  list-style: none;
+  padding: 0;
+}
+
+/* メインコンテンツ */
+#main_con {
+  display: flex;
+  justify-content: space-between;
+}
+
+.block1 {
+  width: 70%;
+}
+
+.block2 {
+  width: 28%;
+}
+
+/* サブタイトル */
+.subtitle {
+  font-size: 24px;
+  border-bottom: 2px solid #000;
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+}
+
+.subtitle span {
+  font-size: 14px;
+  margin-left: 10px;
+}
+
+/* 出勤情報 */
+#todayssche-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  list-style: none;
+  padding: 0;
+}
+
+#todayssche-list li {
+  width: calc(33.33% - 14px);
+  border: 1px solid #ddd;
+  padding: 10px;
+}
+
+.ph {
+  position: relative;
+  width: 100%;
+  padding-top: 133.33%; /* 3:4 aspect ratio */
+}
+
+.photo-has-2 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.time {
+  color: #f00;
+  font-weight: bold;
+}
+
+/* ピックアップ */
+.slider4 {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  list-style: none;
+  padding: 0;
+}
+
+.slider4 li {
+  width: calc(33.33% - 14px);
+}
+
+.ajph {
+  margin-bottom: 10px;
+}
+
+.ajarticle {
+  text-align: center;
+}
+
+/* サイドバー */
+#banner ul {
+  list-style: none;
+  padding: 0;
+}
+
+#banner img {
+  max-width: 100%;
+  height: auto;
+}
+
+#event .slick-slider {
+  margin-bottom: 20px;
+}
+
+#event .slick-slide img {
+  width: 100%;
+  height: auto;
+}
+
+#event .slick-prev,
+#event .slick-next {
+  z-index: 1;
+}
+
+#event .slick-prev {
+  left: 10px;
+}
+
+#event .slick-next {
+  right: 10px;
+}
+
+.subcont .slick-slide {
+  padding: 0 10px;
+}
+
+.subcont .slick-prev,
+.subcont .slick-next {
+  z-index: 1;
+}
+
+.subcont .slick-prev {
+  left: -25px;
+}
+
+.subcont .slick-next {
+  right: -25px;
+}
+
+.subcont .ph.ajph {
+  position: relative;
+  width: 100%;
+  padding-top: 133.33%; /* 3:4 aspect ratio */
+}
+
+.subcont .ph.ajph img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* レスポンシブデザイン */
+@media (max-width: 768px) {
+  #main_con {
+    flex-direction: column;
+  }
+
+  .block1, .block2 {
+    width: 100%;
+  }
+
+  #todayssche-list li, .slider4 li {
+    width: calc(50% - 10px);
+  }
+}
+
+@media (max-width: 480px) {
+  #todayssche-list li, .slider4 li {
+    width: 100%;
+  }
+}

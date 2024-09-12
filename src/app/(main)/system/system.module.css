@@ -1,0 +1,48 @@
+.wrap {
+  margin-top: 0px;
+}
+
+.pagetitle {
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+  margin: 20px 0;
+}
+
+.topCrumb {
+  margin-bottom: 20px;
+}
+
+.breadcrumb {
+  list-style: none;
+  padding: 0;
+}
+
+.breadcrumb li {
+  display: inline;
+  margin-right: 5px;
+}
+
+.breadcrumb li::after {
+  content: ">";
+  margin-left: 5px;
+}
+
+.breadcrumb li:last-child::after {
+  content: "";
+}
+
+.systemlist {
+  list-style: none;
+  padding: 0;
+  margin: 20px 0;
+}
+
+.systemlist li {
+  margin-bottom: 20px;
+}
+
+.systemlist img {
+  width: 100%;
+  height: auto;
+}

@@ -1,0 +1,106 @@
+.recruitmentContainer {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.recruitmentSideColumn {
+  width: 25%;
+}
+
+.recruitmentMainColumn {
+  width: 50%;
+}
+
+.recruitmentRightColumn {
+  width: 25%;
+}
+
+.recruitmentFixedColumn {
+  position: sticky;
+  top: 20px;
+}
+
+.recruitmentMainContents {
+  display: flex;
+  justify-content: space-between;
+}
+
+.recruitmentShopData {
+  background-color: #f9f9f9;
+  padding: 10px;
+  border: 1px solid #ccc;
+}
+
+.recruitmentUpdatedAt {
+  font-size: 12px;
+  color: #999;
+}
+
+.recruitmentLeadTxt {
+  font-size: 16px;
+  margin-top: 10px;
+}
+
+.recruitmentShopName {
+  font-size: 24px;
+  font-weight: bold;
+  margin: 10px 0;
+}
+
+.recruitmentShopInfo p {
+  margin: 5px 0;
+}
+
+.recruitmentBenefitBtn img {
+  width: 100%;
+  max-width: 300px;
+}
+
+.recruitmentSalarySection {
+  margin-top: 40px;
+}
+
+.recruitmentSalaryHead {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.recruitmentSalaryBody {
+  margin-top: 20px;
+}
+
+.recruitmentSalaryPrice {
+  background-color: #f3f3f3;
+  padding: 15px;
+  border-radius: 5px;
+}
+
+.recruitmentWantedSection {
+  margin-top: 40px;
+}
+
+.recruitmentWantedHead {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.recruitmentWantedBody {
+  margin-top: 20px;
+}
+
+.recruitmentBenefitSection {
+  margin-top: 40px;
+}
+
+.recruitmentBenefitHead {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.recruitmentBenefitBody {
+  margin-top: 20px;
+}
